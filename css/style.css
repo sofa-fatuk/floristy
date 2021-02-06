@@ -1,3 +1,257 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Forum", "Arial", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  min-width: 1750px;
+  color: #ffffff;
+  background-color: #3b181b;
+  background-image: url("https://assets.htmlacademy.ru/content/skills/3/case-08/img/bg.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.container {
+  width: 1750px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.main-header {
+  padding: 90px 0;
+  
+  min-height: 50px;
+}
+
+.main-header-nav-wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+
 .main-header-logo {
-  background: red;
+  min-height: 50px;
+  width: 137px;
+}
+
+.site-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  max-width: 950px;
+
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-left: 200px;
+
+  min-height: 51px;
+  width: 950px;
+}
+
+.site-navigation-item {
+  margin-right: 20px;
+  margin-top: 24px;
+  
+  height: 27px;
+  width: 130px;
+}
+
+.site-navigation-link {
+
+}
+
+.phone {
+  margin-left: auto;
+  margin-top: 25px;
+  
+  min-height: 22px;
+  width: 155px;
+}
+
+.main-title {
+  display: flex;
+  justify-content: center;
+}
+
+.main-button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.main-navigation-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.social-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.social-item {
+  padding: 20px 0 10px;
+  min-height: 27px;
+  width: 91px;
+}
+
+.catalog {
+  padding-top: 225px;
+}
+
+.catalog-title-shadow {
+  margin: 0;
+  min-height: 220px;
+}
+
+.catalog-list {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: space-between;
+  height: 1050px;
+  padding: 0 70px 0 110px;
+  margin: -100px auto 0;
+  list-style: none;
+}
+
+.catalog-item {
+  width: 330px;
+  flex-shrink: 0;
+  padding: 10px 10px 15px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+
+.catalog-item-first-column {
+  order: 1;
+}
+
+.catalog-item-second-column {
+  order: 2;
+}
+
+.catalog-item-third-column {
+  order: 3;
+}
+
+.catalog-item-fourth-column {
+ order: 4;
+}
+
+.catalog-item-title {
+  margin-top: 10px;
+  margin-bottom: 16px;
+  min-height: 54px;
+}
+
+.catalog-item-link {
+  display: block;
+  min-height: 26px;
+}
+
+.sales {
+  padding-top: 45px;
+  padding-bottom: 50px;
+}
+
+.sales-wrapper {
+  display: flex;
+  width: 1176px;
+  margin: 0 auto; 
+}
+
+.sales-text-column {
+  width: 479px;
+  padding: 40px 4px 20px;
+}
+
+.sales-img-column {
+  width: 697px;
+
+  min-height: 410px;
+}
+
+.sales-text {
+  padding: 57px 50px 40px 0;
+  margin: 0;
+
+  min-height: 62px;
+}
+
+.portfolio {
+  padding-top: 210px;
+  padding-bottom: 20px;
+}
+
+.portfolio-wrapper {
+  display: flex;
+}
+
+.portfolio-img-column {
+  width: 996px;
+  flex-shrink: 0;
+}
+
+.portfolio-text-column {
+  padding: 120px 5px 20px 115px;
+  width: 723px;
+}
+
+.portfolio-photo {
+  min-height: 855px;
+}
+
+.portfolio-text {
+  margin: 55px 0 44px 0;
+}
+
+.photo-preview-list {
+  padding: 113px 0 0 0; 
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+}
+
+.photo-preview-item {
+  margin-right: 20px;
+}
+
+.certificates {
+  padding-top: 227px;
+  padding-bottom: 40px;
+}
+
+.certificates-list {
+  padding: 0;
+  margin: 80px 0 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.certificate-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 348px;
+  padding-bottom: 70px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.certificate-item-big {
+  width: 420px;
+  padding-bottom: 98px;
 }
